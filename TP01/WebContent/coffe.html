@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="CoffeServlet" method="get">
+<p>Vous souhaitez faire une remarque ou une suggestion concernant :</p>
+		<input type="radio" name="remarque" id="menu" value="menu">
+		<label for="menu">La composition des menus</label>
+		<br><br>
+		<input type="radio" name="remarque" id="service" value="service">
+		<label for="service">La qualité de service</label>
+		<br><br>
+		<input type="radio" name="remarque" id="prix" value="prix">
+		<label for="prix">Les prix pratiqués</label>
+		<br><br>
+		<label for="commentaires">Précisez votre demande :</label>
+		<br>
+		<textarea name="commentaires" id="commentaires" cols="30" rows="10"></textarea>
+		<br><br>
+		<button type="submit">valide</button>
+		
+</form>
+</body>
+</html>
